@@ -9,3 +9,13 @@
     python resumebuilder.py
     ```
 3. See output as `resume_YYYYMMDDhhmmss.md`
+
+### Troubleshooting
+1. If you encounter following error:
+   ```
+   TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+   ```
+   Make sure you are using latest `groq` library installed by running following command:
+   ```
+   pip install --upgrade groq 
+   ```
